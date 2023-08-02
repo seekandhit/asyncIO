@@ -1,5 +1,4 @@
 import asyncio
-import time
 
 def deliver_messages(city: str):
     print(f"Message delivered to {city}")

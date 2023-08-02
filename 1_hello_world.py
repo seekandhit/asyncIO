@@ -2,12 +2,12 @@ import asyncio
 
 
 async def main():
-    print('Hello...')
+    print("Hello...")
     await asyncio.sleep(1)
-    print('...World!')
+    print("...World!")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     loop = asyncio.new_event_loop()
     try:
         loop.run_until_complete(main())
